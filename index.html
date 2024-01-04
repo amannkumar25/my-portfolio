@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65e0af5d3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2><span>My</span>Portfolio</h2>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Web Developer</p>
+                <h1>Hi, I'm <span>Aman Kumar</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Passionate about crafting exceptional web experiences, I am a Frontend Web Developer with expertise in HTML, CSS, and JavaScript, complemented by proficiency in React and Bootstrap. My journey involves seamlessly blending creativity with functionality, translating ideas into responsive and visually captivating websites. With a keen eye for design and a commitment to staying at the forefront of web development trends, I strive to create user-centric, intuitive interfaces that leave a lasting impression. Let's transform your digital vision into a stunning reality together.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>ReactJS</li>
+                            <li>Java</li>   
+                            
+                        </ul>
+                        
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Dreamer Infotech-Faridabad</li>
+                            <li><span>6 months</span></li>
+                            <li>Q spiders/J spiders-Gurgaon</li>
+                            <li><span>2 months</span></li>   
+                            <li>Eviox Technology virtual Internship</li>
+                            <li><span>1 month</span></li>   
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.tech,Mechanical Engineering(2019-2023)</span><br>UIET, Kurukshetra University <br>7.0 CGPA</li>
+                            <li><span>Class XII(2018)</span><br>Aggarwal Public School <br>8.2 CGPA</li>
+                            <li><span>Class X(2016)</span><br>Aggarwal Public School <br>8.2 CGPA</li>                               
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Web Design</h2>
+                    <p>Elevate your brand with visually stunning and user-friendly designs, meticulously crafted to leave a lasting impression.</p>
+                
+                </div>
+                <div>
+                    <i class="fa-brands fa-uikit"></i>
+                    <h2>React JS</h2>
+                    <p>Harness the power of ReactJS for dynamic, high-performance web applications, ensuring seamless user interactions and a superior frontend experience.</p>
+                
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML/CSS</h2>
+                    <p>Precision in HTML/CSS coding, creating elegant and responsive layouts that prioritize both aesthetics and functionality for a seamless user experience.</p>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------projects------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/965875/pexels-photo-965875.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    <div class="layer">
+                        <h3>Dice Game</h3>
+                        <p>Crafted a captivating dice game using React, blending creativity
+                            with coding finesse</p>
+                        <a href="https://dice-game2-20nl.onrender.com"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/218686/pexels-photo-218686.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p>Developed a personalized Spotify clone from scratch, showcasing
+                            proficiency in web development and front-end design.</p>
+                        <a href="https://amannkumar25.github.io/spotifyClone/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="data:image/jpeg;base64,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">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Designed an intuitive web application that offers comprehensive
+                            weather data, including humidity and wind speed, based on userprovided location input using API.</p>
+                        <a href="https://amannkumar25.github.io/weather_app/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>kumartheaman47@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9643465305</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aman-kumar-08478622a"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/amannkumar25"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.hackerrank.com/kumartheaman47"><i class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                    <a href="new_resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script> 
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxaNqr8M0ZYiUt_EozE3VuB26fcINO7wZM24USQ-tfWwGjWFqOED4KdzN-BQh8i9lhX/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
